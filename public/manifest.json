@@ -1,6 +1,6 @@
 {
-	"name": "Develope Student Clubs Loyola Website",
-	"short_name": "DSC Loyola",
+	"name": "DevelopersPoint",
+	"short_name": "DP",
 	"start_url": "/",
 	"display": "standalone",
 	"theme_color": "#2f80ed",

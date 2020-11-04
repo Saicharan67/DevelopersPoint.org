@@ -6,7 +6,7 @@
       <social-icons color="black"></social-icons>
       <p>
         Or email us at
-        <a href="mailto:dsc.ateneo@gmail.com">dsc.ateneo@gmail.com</a>.
+        <a href="mailto:developersPoint.org@gmail.com">developersPoint.org@gmail.com</a>.
       </p>
     </section>
     <footer>
@@ -89,7 +89,7 @@
           </div>
           <div class="col-12 col-md-6">
             <small>
-              © 2020 Developer Student Clubs Loyola. All Rights Reserved.
+              © 2020 DevelopersPoint. All Rights Reserved.
             </small>
           </div>
         </div>

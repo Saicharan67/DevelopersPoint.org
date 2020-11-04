@@ -4,9 +4,10 @@
       <div id="nav-brand" class="col-12 col-md-6">
         <router-link to="/">
           <img
-            alt="Developer Student Clubs Loyola logo"
+            alt="Developers Point"
             :src="require('@/assets/images/' + brand + '')"
           />
+         
         </router-link>
       </div>
       <ul

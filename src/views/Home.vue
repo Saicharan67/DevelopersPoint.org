@@ -9,13 +9,11 @@
         <div id="hero-text">
           <h1>Creating impact together</h1>
           <p class="feature-text">
-            Developer Student Clubs Loyola is a student organization in the
-            Ateneo de Manila University powered by Google Developers that aims
-            to build students’ skills and network by giving them access to
-            different technologies, specifically Google Developer technologies
-            like Android, Firebase, Angular, Flutter, Google Cloud Platform and
-            many more. Together, we learn in a peer-to-peer learning environment
-            and build solutions for the community.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
           </p>
           <div>
             <!-- <a href="/" target="_blank" rel="noopener noreferrer">
@@ -68,20 +66,16 @@
     <section id="next" :style="backgroundNext">
       <div class="container">
         <h2>What's coming next?</h2>
-        <p>Check out the next event of DSC Loyola.</p>
+        <p>Check out the next event of DeveopersPoint.</p>
         <div class="row" style="margin: 0">
           <div id="next-event" class="col-12 col-lg-9">
             <h5>Tech at Home 2020</h5>
             <p class="description">
-              Tech at Home is a student-led online technology seminar series
-              that teaches new technologies, especially Google technologies to a
-              wide and diverse audience. It will be composed of various hands-on
-              workshops and speaker engagements from esteemed professionals in
-              the field of technology. The topics will range from data science,
-              cloud engineering, web and mobile development and other
-              tech-related advocacy topics. This event was crafted in light of
-              the enhanced community quarantine (ECQ) and the desire of students
-              and professionals to learn new skills during the pandemic.
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
             </p>
             <p class="datetime">
               <i class="material-icons">date_range</i>
@@ -92,7 +86,7 @@
               <span>Google Meet & Youtube Live</span>
             </p>
             <a
-              href="https://www.youtube.com/playlist?list=PL1hGGdX7S9aSC9WKruRWudglqhmMsUIj5"
+              href="#next"
               target="_blank"
               rel="noopener noreferrer"
             >
