@@ -4,9 +4,11 @@
       <div id="nav-brand" class="col-12 col-md-6">
         <router-link to="/">
           <img
+            style="width: 200px; height: 34px"
             alt="Developers Point"
-            :src="require('@/assets/images/' + brand + '')"
+            :src="require('@/assets/images/Dp.png')"
           />
+         
          
         </router-link>
       </div>

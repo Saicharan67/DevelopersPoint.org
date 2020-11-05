@@ -82,8 +82,9 @@
           <div class="col-12 col-md-6">
             <router-link to="/">
               <img
-                src="../assets/images/logo.svg"
-                alt="Developer Student Clubs Loyola logo"
+              style="width: 200px"
+                src='../assets/images/Dp.png'
+                alt='DevelopersPoint'
               />
             </router-link>
           </div>
