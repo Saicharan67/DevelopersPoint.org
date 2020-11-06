@@ -16,11 +16,7 @@ export default {
       backgroundImage: {
         backgroundImage:
           "url(" +
-          require("@/assets/images/event/" +
-            this.type +
-            "/" +
-            this.image +
-            "") +
+          " https://picsum.photos/200/300" +
           ")",
         backgroundSize: "cover",
         backgroundPosition: "center center"
