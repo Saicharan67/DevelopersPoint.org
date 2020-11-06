@@ -1,10 +1,10 @@
 <template>
   <div id="team-circle">
     <div id="image">
-      <img :src="img" :alt="name" />
+      <img :src="img" :alt=Lorem  />
     </div>
     <div id="text">
-      <h6>{{ name }}</h6>
+      <h6>Lorem Ipsum</h6>
       <p>
         <slot>Position</slot>
       </p>
@@ -32,8 +32,8 @@ export default {
       .getURL({
         fileId: this.image.split("/")[1]
       })
-      .then(image => {
-        this.img = image;
+      .then(() => {
+        this.img = "https://picsum.photos/500/500";
       })
       .catch(error => console.log(error));
   },

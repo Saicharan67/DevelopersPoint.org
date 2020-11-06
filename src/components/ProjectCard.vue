@@ -6,7 +6,7 @@
     <div class="love-view">
       <div class="love">
         <img
-          src="../assets/images/heart-icon.png"
+          src="https://picsum.photos/200/300"
           class="heart-icon"
           alt="heart-icon"
         />

@@ -3,8 +3,8 @@
     <section id="executive-board" class="grey-bg">
       <div class="container">
         <h2>{{ teamPage.title }}</h2>
-        <p class="feature-text">{{ teamPage.description }}</p>
-        <h4>Executive Board</h4>
+        <p class="feature-text">Our lineup that empowers, enlightens, and nurtures student developers in the National Institute Technology, Andhra Pradesh</p>
+        <h4>Team Board</h4>
         <div class="row justify-content-center">
           <team-circle
             v-for="board in teamPage.executiveBoard"
@@ -15,7 +15,7 @@
             :facebook="board.facebook"
             :linkedin="board.linkedin"
             :github="board.github"
-            >{{ board.position }}</team-circle
+            >Lorem Ipsum is the position currently</team-circle
           >
         </div>
       </div>
@@ -26,7 +26,7 @@
       :key="department.name"
       :name="department.name"
       :image="department.image[0].image[0].path"
-      :description="department.description"
+      :description="null"
       :color="department.color"
       :leads="department.leads"
     ></department>
