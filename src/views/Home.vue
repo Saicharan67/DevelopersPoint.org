@@ -101,100 +101,100 @@
       <div class="container">
         <h2>Check out other chapters.</h2>
         <p class="bottom">
-          There are 18 other DSC chapters in the Philippines right now!
+          Explore more People....
         </p>
         <div id="chapter-scroll-container">
           <div id="chapter-scroll" v-dragscroll>
             <margin :width="width"></margin>
             <chapter-circle
               image="chapter.png"
-              title="De La Salle University Manila"
-              location="Manila"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="De La Salle-College Of Saint Benilde"
-              location="Manila"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="National University"
-              location="Manila"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="FEU - Institute Of Technology"
-              location="Manila"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="University Of Santo Tomas"
-              location="Manila"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="AMA Computer Caloocan"
-              location="Caloocan"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="St. Paul University Philippines"
-              location="Tuguegarao City"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="University Of Saint Louis Tuguegarao"
-              location="Tuguegarao City"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="Cebu Institute of Technology - University"
-              location="Cebu City"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="University of San Carlos"
-              location="Cebu City"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="University of the Philippines - Cebu"
-              location="Cebu City"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="Cristal E-College"
-              location="Panglao, Bohol"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="University Of Negros Occidental - Recoletos"
-              location="Bacolod City"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="University Of Saint La Salle"
-              location="Bacolod City"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="Central Philippine University"
-              location="Iloilo City"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="STI College Cagayan De Oro"
-              location="Cagayan de Oro City"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="Mindanao State University - Iligan Institute Of Technology"
-              location="Iligan City"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <chapter-circle
               image="chapter.png"
-              title="Ateneo de Zamboanga University"
-              location="Zamboanga City"
+              title="Lorem Ipsum"
+              location="India"
             ></chapter-circle>
             <margin :width="width"></margin>
           </div>
@@ -238,7 +238,8 @@ export default {
     return {
       width: window.innerWidth >= 768 ? 64 : 24,
       backgroundHero: {
-        backgroundImage: "url(" + require("@/assets/images/impact.png") + ")",
+        
+         backgroundImage: "url(" + require("@/assets/images/impact.png") + ")",
         backgroundSize: "cover",
         backgroundPosition: "center"
       },

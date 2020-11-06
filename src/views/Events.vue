@@ -10,15 +10,11 @@
         linkText="Rewatch now!"
       >
         <p>
-          Tech at Home is a student-led online technology seminar series that
-          teaches new technologies, especially Google technologies to a wide and
-          diverse audience. It will be composed of various hands-on workshops
-          and speaker engagements from esteemed professionals in the field of
-          technology. The topics will range from data science, cloud
-          engineering, web and mobile development and other tech-related
-          advocacy topics. This event was crafted in light of the enhanced
-          community quarantine (ECQ) and the desire of students and
-          professionals to learn new skills during the pandemic.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </featured-event>
     </SlickCarousel>
@@ -135,7 +131,7 @@
                 type="speaker-session"
                 @click.native="modalOpen(11)"
               >
-                DSC Loyola General Assembly 2019
+                DSC  General Assembly 2019
                 <br />
               </event-card>
               <event-card
@@ -199,9 +195,9 @@ export default {
           type: "Study Jams",
           title: "Firebase in Action: Actions on Google and DialogFlow",
           description:
-            "This is the third and final workshop we have for Firebase February. Here we did Qwiklabs Lab called Google Assistant: Build an Application with Dialogflow and Cloud Functions. It was pretty interesting and a lot of students enjoyed it. We taught Google Assistant how to do a trivia game which was pretty fun to do.",
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. ',
           datetime: "February 26, 2020",
-          location: "Ateneo de Manila University",
+          location: "Nit Andhra",
           participants: "36",
           female: "5"
         },
@@ -210,9 +206,9 @@ export default {
           title:
             "Firebase in Action: Building a Serverless Web App using Firebase",
           description:
-            "This is our second workshop for Firebase February. Here in this event we delved into firebase by doing Qwiklab's hands-on-workshop called Building a Serverless Web app using Firebase. Here we taught students the basics of firebase and created a serverless web app to help them visualize what they can build with firebase.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. ",
           datetime: "February 19, 2020",
-          location: "Ateneo de Manila University",
+          location: "Nit Andhra",
           participants: "15",
           female: "3"
         },
@@ -220,9 +216,9 @@ export default {
           type: "Study Jams",
           title: "Firebase in Action: Firebase Web",
           description:
-            "This is the first ever Firebase February Workshop wherein we accomplished the Qwiklab's hands-on tutorial called Firebase Web. Here, together with the participants, we were able to get a grasps of what firebase can do and create a real-time messaging web application.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. ",
           datetime: "February 19, 2020",
-          location: "Ateneo de Manila University",
+          location: "Nit Andhra",
           participants: "15",
           female: "3"
         },
@@ -230,9 +226,9 @@ export default {
           type: "Study Jams",
           title: "Baseline: Deploy and Develop",
           description:
-            "DSC Loyola conducted its last Cloud Study Jam for the year 2019! We conducted the Baseline: Deploy & Develop so that students would know how to connect and deploy their existing projects to the Google Cloud Platform.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. ",
           datetime: "November 28, 2019",
-          location: "Ateneo de Manila University",
+          location: "Nit Andhra",
           participants: "15",
           female: "7"
         },
@@ -240,9 +236,9 @@ export default {
           type: "Study Jams",
           title: "BigQuery Basics for Data Analysts",
           description:
-            "DSC Loyola hosted its 3rd Cloud Study Jams for the November 2019 and we taught BigQuery Basics for Data Analyst. We did the SQL course and the hands-on-lab on create a BigQuery Slides Presentation. This is to show the members how exciting is BigQuery and up to what extent can it do. We hope to host more BigQuery workshops in the future.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. ",
           datetime: "November 25, 2019",
-          location: "Ateneo de Manila University",
+          location: "Nit Andhra",
           participants: "3",
           female: "1"
         },
@@ -250,9 +246,9 @@ export default {
           type: "Study Jams",
           title: "Baseline: Data, ML, and AI & Neural Networks",
           description:
-            "DSC Loyola conducted another Cloud Study Jams wherein we taught attendees how they can use the Google Cloud Platform for Data, Machine Learning and Artificial Intelligence. We did our best to finish the quest however due to technical difficulties, we transitioned to introduction to Neural Networks because students were interested in it.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. ",
           datetime: "November 11, 2019",
-          location: "Ateneo de Manila University",
+          location: "Nit Andhra",
           participants: "21",
           female: "6"
         },
@@ -260,9 +256,9 @@ export default {
           type: "Study Jams",
           title: "GCP Essentials",
           description:
-            "DSC Loyola hosted its first ever Cloud Study Jams on GCP Essentials. Here we did 60% of the quest so that they can do the other 40% at home. In this event, we gave can overview of the Google Cloud Platform like what features are available in GCP. Also, we shared professional and personal projects that are already hosted in GCP to the students so that we get their attention and curiousity.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. ",
           datetime: "November 6, 2019",
-          location: "Ateneo de Manila University",
+          location: "Nit Andhra",
           participants: "31",
           female: "11"
         },
@@ -270,9 +266,9 @@ export default {
           type: "Hands-on Workshops",
           title: "Pandas, Numpy, and Matplotlib Workshop",
           description:
-            "DSC Loyola is officially having its first event of the new decade: Pandas, Numpy, and Matplotlib Workshop! Learn more about visualizing data in Python from our very own Chief Technology Officer, Franz Louis Cesista. We used numpy and matplotlib to visualize statistical models and model the coronavirus for pandas.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. ",
           datetime: "January 29, 2020",
-          location: "Ateneo de Manila University",
+          location: "Nit Andhra",
           participants: "30",
           female: "5"
         },
@@ -280,9 +276,9 @@ export default {
           type: "Hands-on Workshops",
           title: "Mobile Development Workshop with Flutter PH",
           description:
-            "You might have heard of Android Development with Android Studio but you might not know there's another way of building mobile apps that is hybrid. This means you can export it to Google Play and App Store. This hybrid is what we call Flutter. DSC Loyola hosts a Mobile Development Workshop with Flutter Philippines wherein Joshua and Oliver discussed about Flutter and thought us basics Flutter Development.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. ",
           datetime: "November 20, 2019",
-          location: "Ateneo de Manila University",
+          location: "Nit Andhra",
           participants: "40",
           female: "10"
         },
@@ -290,9 +286,9 @@ export default {
           type: "Hands-on Workshops",
           title: "Python Workshop",
           description:
-            "In under 3 hours, DSC Loyola provided a hands-on workshop to teach its members and also non-dsc members to learn how to program in Python. We thought them about variable types, functions, lists and loops. We also shared Python projects that the DSC co-founders built",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. ",
           datetime: "November 4, 2019",
-          location: "Ateneo de Manila University",
+          location: "Nit Andhra",
           participants: "30",
           female: "12"
         },
@@ -300,9 +296,9 @@ export default {
           type: "Speaker Session & Tech Talk",
           title: "Solution Challenge Info Session and Design Day",
           description:
-            "Global Solutions Challenge is an international competition which invites members of DSC chapters all around the globe to develop solutions for local community problems. With that, DSC Loyola hosted a 2-in-1 workshop for the Solution Challenge wherein we shared what is Solutions Challenge all about and at the same time hosted a Design Sprint workshop to help participants in their projects.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. ",
           datetime: "February 13, 2020",
-          location: "Ateneo de Manila University",
+          location: "Nit Andhra",
           participants: "10",
           female: "1"
         },
@@ -310,9 +306,9 @@ export default {
           type: "Speaker Session & Tech Talk",
           title: "DSC Loyola General Assembly 2019",
           description:
-            "General Assembly is an info session caterred for registered members of the organization. We are happy to announce that DSC Loyola's opening was magnificent because we have a total 300+ registered members. Here in the general assembly, we pitched what is Developer Student Clubs and what benefits they get by joining the organization. We also discussed to them the mission and vision of the organization and invited them to be part of the core team. We discussed also our upcoming events and the projects they can expect with us.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. ",
           datetime: "October 28, 2019",
-          location: "Ateneo de Manila University",
+          location: "Nit Andhra",
           participants: "69",
           female: "16"
         },
@@ -320,9 +316,9 @@ export default {
           type: "Speaker Session & Tech Talk",
           title: "DSC Info Session 2019",
           description:
-            "DSC Info session was catered not just for members of the organization but also open to other students interested in joining DSC. In this event, we pitched to them who we are and what we offer as an organization. We also had an ice breaker where they have to guess a Google tech through charades and also the attendees pitched possible solutionarian projects they want to work on	",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. ",
           datetime: "October 3, 2019",
-          location: "Ateneo de Manila University",
+          location: "Nit Andhra",
           participants: "17",
           female: "4"
         },
@@ -330,9 +326,9 @@ export default {
           type: "Speaker Session & Tech Talk",
           title: "Introduction to Google Technologies",
           description:
-            "Did you know? Google Technologies such as Android Development, Angular and many more are not taught inside the Ateneo de Manila University. That is why as an organization powered by Google Developers, DSC Loyola's first ever event is to educate students on what Google Technologies that are available as of the moment. This is to help them explore and as well you these stacks in their personal projects and maybe in their academics such as their thesis.",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. ",
           datetime: "August 3, 2019",
-          location: "Ateneo de Manila University",
+          location: "Nit Andhra",
           participants: "18",
           female: "3"
         }

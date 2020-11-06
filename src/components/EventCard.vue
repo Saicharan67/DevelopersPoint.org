@@ -16,10 +16,10 @@ export default {
       backgroundImage: {
         backgroundImage:
           "url(" +
-          " https://picsum.photos/200/300" +
+          " https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" +
           ")",
         backgroundSize: "cover",
-        backgroundPosition: "center center"
+        // backgroundPosition: "center center"
       }
     };
   }
