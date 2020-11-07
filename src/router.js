@@ -13,20 +13,20 @@ const router = new Router({
       component: () => import("./views/Home.vue")
     },
     {
-      path: "/DevelopersPoint.org/about",
+      path: "/about",
       component: () => import("./views/About.vue")
     },
     {
-      path: "/DevelopersPoint.org/events",
+      path: "/events",
       component: () => import("./views/Events.vue")
     },
     {
-      path: "/DevelopersPoint.org/projects",
+      path: "/projects",
       component: InProgress
       // component: () => import("./views/Projects.vue")
     },
     {
-      path: "/DevelopersPoint.org/team",
+      path: "/team",
       component: () => import("./views/Team.vue")
     },
     {
