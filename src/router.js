@@ -9,7 +9,7 @@ const router = new Router({
   mode: "history",
   routes: [
     {
-      path: "/DevelopersPoint.org",
+      path: "/",
       component: () => import("./views/Home.vue")
     },
     {
