@@ -12,9 +12,9 @@
             class="col-12 col-sm-12 col-md-4"
             :name="board.name"
             :image="board.image[0].image[0].path"
-            :facebook="board.facebook"
-            :linkedin="board.linkedin"
-            :github="board.github"
+             facebook='https://www.facebook.com/login/'
+             linkedin="https://www.linkedin.com/feed/"
+             github="https://github.com/"
             >Lorem Ipsum is the position currently</team-circle
           >
         </div>
