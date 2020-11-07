@@ -9,24 +9,24 @@ const router = new Router({
   mode: "history",
   routes: [
     {
-      path: "/",
+      path: "/DevelopersPoint.org",
       component: () => import("./views/Home.vue")
     },
     {
-      path: "/about",
+      path: "/DevelopersPoint.org/about",
       component: () => import("./views/About.vue")
     },
     {
-      path: "/events",
+      path: "/DevelopersPoint.org/events",
       component: () => import("./views/Events.vue")
     },
     {
-      path: "/projects",
+      path: "/DevelopersPoint.org/projects",
       component: InProgress
       // component: () => import("./views/Projects.vue")
     },
     {
-      path: "/team",
+      path: "/DevelopersPoint.org/team",
       component: () => import("./views/Team.vue")
     },
     {
