@@ -11,9 +11,9 @@ module.exports = {
       maskIcon: 'favicon.png',
       msTileImage: 'favicon.png',
       },
-    // workboxOptions: {
-    //   swSrc: "src/registerServiceWorker.js"
-    // }
+    workboxOptions: {
+      swSrc: "src/registerServiceWorker.js"
+    }
   }
   
 };
