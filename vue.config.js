@@ -1,4 +1,8 @@
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/DevelopersPoint.org/'
+    : '/',
+  
   pwa: {
     workboxPluginMode: "InjectManifest",
     iconPaths: {
@@ -7,8 +11,9 @@ module.exports = {
       maskIcon: 'favicon.png',
       msTileImage: 'favicon.png',
       },
-    workboxOptions: {
-      swSrc: "src/registerServiceWorker.js"
-    }
+    // workboxOptions: {
+    //   swSrc: "src/registerServiceWorker.js"
+    // }
   }
+  
 };
