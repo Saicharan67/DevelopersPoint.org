@@ -68,9 +68,7 @@
                   >Executive Board</router-link
                 >
               </li>
-              <li>
-                <router-link to="/team#departments">Departments</router-link>
-              </li>
+              
               <li>
                 <router-link to="/team#join">Join Us</router-link>
               </li>

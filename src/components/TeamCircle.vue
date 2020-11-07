@@ -1,7 +1,7 @@
 <template>
   <div id="team-circle">
     <div id="image">
-      <img :src="img" :alt=Lorem  />
+      <img src="https://picsum.photos/500/500" :alt=Lorem  />
     </div>
     <div id="text">
       <h6>Lorem Ipsum</h6>

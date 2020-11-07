@@ -2,16 +2,18 @@
   <div>
     <section id="executive-board" class="grey-bg">
       <div class="container">
-        <h2>{{ teamPage.title }}</h2>
+        <h2>Developerspoint</h2>
         <p class="feature-text">Our lineup that empowers, enlightens, and nurtures student developers in the National Institute Technology, Andhra Pradesh</p>
         <h4>Team Board</h4>
         <div class="row justify-content-center">
           <team-circle
-            v-for="board in teamPage.executiveBoard"
-            :key="board.name"
+            
+            
+            v-for="item in Items"
+            :key="item"
             class="col-12 col-sm-12 col-md-4"
-            :name="board.name"
-            :image="board.image[0].image[0].path"
+            :name="item"
+            
              facebook='https://www.facebook.com/login/'
              linkedin="https://www.linkedin.com/feed/"
              github="https://github.com/"
@@ -21,24 +23,16 @@
       </div>
     </section>
 
-    <department
-      v-for="department in teamPage.departments"
-      :key="department.name"
-      :name="department.name"
-      :image="department.image[0].image[0].path"
-      :description="null"
-      :color="department.color"
-      :leads="department.leads"
-    ></department>
+    
 
     <section id="join" class="grey-bg">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-4">
-            <h2>{{ teamPage.joinSection.title }}</h2>
-            <p>{{ teamPage.joinSection.description }}</p>
+            <h2>Join our community!</h2>
+            <p>Be part of the DevelopersPoint circle where we create impact together!</p>
             <a
-              :href="teamPage.joinSection.link"
+              href="mailto:developerspoint.org@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -53,53 +47,18 @@
 
 <script>
 import TeamCircle from "@/components/TeamCircle";
-import Department from "@/components/Department";
-import { app } from "../main";
+//import Department from "@/components/Department";
+//import { app } from "../main";
 
 export default {
-  async created() {
-    app.content
-      .get({
-        schemaKey: "teamPage",
-        populate: [
-          {
-            field: "title"
-          },
-          {
-            field: "description"
-          },
-          {
-            field: "executiveBoard",
-            fields: [
-              "name",
-              "position",
-              "image",
-              "facebook",
-              "github",
-              "linkedin"
-            ]
-          },
-          {
-            field: "departments",
-            fields: ["name", "image", "description", "color", "leads"]
-          },
-          {
-            field: "joinSection"
-          }
-        ]
-      })
-      .then(teamPage => {
-        this.teamPage = teamPage;
-      })
-      .catch(error => console.log(error));
-  },
+  
   components: {
     TeamCircle,
-    Department
+    
   },
   data() {
     return {
-      teamPage: []
+      Items: ['a','b','c','d']
     };
   }
 };
