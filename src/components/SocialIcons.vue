@@ -1,7 +1,7 @@
 <template>
   <div id="social-list">
     <a
-      href="https://www.facebook.com/dscloyola"
+      href="#"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -16,7 +16,7 @@
       </div>
     </a>
     <a
-      href="https://twitter.com/DSCLoyola"
+      href="#"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -31,7 +31,7 @@
       </div>
     </a>
     <a
-      href="https://www.instagram.com/dsc.loyola/"
+      href="#"
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -52,7 +52,7 @@
       </div>
     </a>
     <a
-      href="https://www.linkedin.com/company/dsc-ateneo-de-manila-university/"
+      href="#"
       target="_blank"
       rel="noopener noreferrer"
     >

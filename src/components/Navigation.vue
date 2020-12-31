@@ -2,7 +2,7 @@
   <nav :style="isHome ? navHome : {}">
     <div class="row align-items-center f-justify-content-between">
       <div id="nav-brand" class="col-12 col-md-6">
-        <router-link to="/">
+        <router-link to="/DevelopersPoint.org">
           <img
             style="width: 200px; height: 34px"
             alt="Developers Point"
